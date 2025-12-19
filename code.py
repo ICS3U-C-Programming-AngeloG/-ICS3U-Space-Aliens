@@ -36,7 +36,13 @@ def game_scene():
 
     # repeat forever, game loop
     while True:
-        pass  # placeholder for now
+        # get user input
+
+        # update game logic
+
+        # redraw sprite
+        game.render_sprites([ship])
+        game.tick()  # wait until the next frame
 
 
 if __name__ == "__main__":
