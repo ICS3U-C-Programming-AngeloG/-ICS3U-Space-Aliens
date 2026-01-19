@@ -7,9 +7,8 @@
 import ugame
 import stage
 
-def game_scene():
 
-    
+def game_scene():
     # this function is the main game scene
 
     # image bank for CircuitPython
